@@ -4,6 +4,7 @@
 When creating a batch of Task records in Microsoft Dynamics 365 (D365) CRM,  some records were successfully created and some records threw errors due to insufficient privilege.
 
 **Error Message:**
+
 [400] (0x80040299) Principal user (Id=xxxxxxx-xxxx-xxxx-xxxxxxxx), type=8, roleCount=1, privilegeCount=0, accessMode=0), is missing prvReadActivity privilege (Id=xxxxxxx-xxxx-xxxx-xxxxxxxx) on OTC=xxxx for entity 'activitypointer' (LocalizedName='Activity') in Business Unit: Business Unit (Id=xxxxxxx-xxxx-xxxx-xxxxxxxx). context.Caller=xxxxxxx-xxxx-xxxx-xxxxxxxx [HTTP/1.1 400 Bad Request]
 
 
